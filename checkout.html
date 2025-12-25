@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Big Bazar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Big<span>Bazar</span></a>
+            
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="fas fa-bars" id="menu-icon"></label>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html">Categories</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart">
+                    <span class="cart-count">0</span>
+                </div></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h2>Checkout</h2>
+        <p><a href="index.html">Home</a> / Checkout</p>
+    </section>
+
+    <section class="form-container">
+        <form class="modern-form">
+            <h3>Billing Details</h3>
+            
+            <div class="form-row">
+                <div class="input-group">
+                    <span>First Name</span>
+                    <input type="text" placeholder="John">
+                </div>
+                <div class="input-group">
+                    <span>Last Name</span>
+                    <input type="text" placeholder="Doe">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <span>Email Address</span>
+                <input type="email" placeholder="john.doe@example.com">
+            </div>
+
+            <div class="input-group">
+                <span>Street Address</span>
+                <input type="text" placeholder="House number and street name">
+            </div>
+
+            <div class="form-row">
+                <div class="input-group">
+                    <span>City</span>
+                    <input type="text" placeholder="Mumbai">
+                </div>
+                <div class="input-group">
+                    <span>State</span>
+                    <input type="text" placeholder="Maharashtra">
+                </div>
+                <div class="input-group">
+                    <span>Postcode</span>
+                    <input type="text" placeholder="400001">
+                </div>
+            </div>
+
+            <h3>Payment Information</h3>
+            <div class="input-group">
+                <span>Card Number</span>
+                <input type="text" placeholder="0000 0000 0000 0000">
+            </div>
+            
+            <div class="form-row">
+                <div class="input-group">
+                    <span>Expiration (MM/YY)</span>
+                    <input type="text" placeholder="MM / YY">
+                </div>
+                <div class="input-group">
+                    <span>CVC</span>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 2rem;">Place Order</button>
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Big Bazar </h3>
+                <p>Redefining premium retail through minimalist design and quality craft.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html" class="links"> Home </a>
+                <a href="shop.html" class="links"> Shop </a>
+                <a href="contact.html" class="links"> Contact </a>
+            </div>
+            <div class="box">
+                <h3>Info</h3>
+                <a href="#" class="links"> Privacy Policy </a>
+                <a href="#" class="links"> Terms of Service </a>
+                <a href="#" class="links"> Shipping Info </a>
+            </div>
+            <div class="box">
+                <h3>Store</h3>
+                <p>Mumbai, MH, India</p>
+                <p>+91 12345 67890</p>
+                <p>hello@bigbazar.com</p>
+            </div>
+        </div>
+        <div class="credit"> &copy; 2025 Big Bazar. Crafted for excellence. </div>
+    </section>
+
+</body>
+</html>

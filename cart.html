@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Big Bazar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Big<span>Bazar</span></a>
+            
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="fas fa-bars" id="menu-icon"></label>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html">Categories</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart">
+                    <span class="cart-count">0</span>
+                </div></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h2>Your Cart</h2>
+        <p><a href="index.html">Home</a> / Cart</p>
+    </section>
+
+    <section class="cart-section">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items-container">
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <div class="box">
+                <h3>Cart Totals</h3>
+                <div class="row">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">Rs. 0</span>
+                </div>
+                <div class="row">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                <div class="row total">
+                    <span>Total</span>
+                    <span id="cart-total">Rs. 0</span>
+                </div>
+                <a href="checkout.html" class="btn btn-primary" style="width: 100%; margin-top: 2rem;">Proceed to Checkout</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Big Bazar </h3>
+                <p>Redefining premium retail through minimalist design and quality craft.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html" class="links"> Home </a>
+                <a href="shop.html" class="links"> Shop </a>
+                <a href="contact.html" class="links"> Contact </a>
+            </div>
+            <div class="box">
+                <h3>Info</h3>
+                <a href="#" class="links"> Privacy Policy </a>
+                <a href="#" class="links"> Terms of Service </a>
+                <a href="#" class="links"> Shipping Info </a>
+            </div>
+            <div class="box">
+                <h3>Store</h3>
+                <p>Mumbai, MH, India</p>
+                <p>+91 12345 67890</p>
+                <p>hello@bigbazar.com</p>
+            </div>
+        </div>
+        <div class="credit"> &copy; 2025 Big Bazar. Crafted for excellence. </div>
+    </section>
+
+</body>
+</html>

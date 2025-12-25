@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Big Bazar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Big<span>Bazar</span></a>
+            
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="fas fa-bars" id="menu-icon"></label>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="shop.html">Categories</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart">
+                    <span class="cart-count">0</span>
+                </div></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <h2>Product Details</h2>
+        <p><a href="index.html">Home</a> / <a href="shop.html">Shop</a> / Details</p>
+    </section>
+
+    <section class="product-details-container">
+        <div class="image-gallery">
+            <img id="main-product-img" src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Product Image">
+        </div>
+        <div class="details-content">
+            <h1 id="product-title">Nike Air Jordan 1</h1>
+            
+            <div class="price">
+                <span class="original-price" id="original-price">Rs. 16,995</span> 
+                <span id="product-price">Rs. 13,995</span>
+            </div>
+            
+            <div class="meta-info">
+                <p><b>Category:</b> Premium Collection</p>
+                <p><b>Availability:</b> In Stock</p>
+            </div>
+            <p class="description">Experience premium quality with our latest collection. Designed for the modern lifestyle, this product combines durability with elegant aesthetics. Perfect for daily use or special occasions.</p>
+            
+            <div class="action-area">
+                <input type="number" min="1" value="1">
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-section">
+        <h2>Customer Reviews (3)</h2>
+        <div class="reviews-container">
+            <div class="review-box">
+                <div class="user">
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="User 1">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>Verified Buyer</span>
+                    </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Absolutely loving this product! The quality exceeds my expectations. Highly recommended!"</p>
+            </div>
+            <div class="review-box">
+                <div class="user">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="User 2">
+                    <div>
+                        <h3>Sarah Smith</h3>
+                        <span>Verified Buyer</span>
+                    </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"Great value for money. Fast shipping and excellent packaging. Will buy again."</p>
+            </div>
+            <div class="review-box">
+                <div class="user">
+                    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="User 3">
+                    <div>
+                        <h3>Mike Ross</h3>
+                        <span>Verified Buyer</span>
+                    </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>"Solid build quality. It looks exactly like the pictures. Very happy with my purchase."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> LUXEMART </h3>
+                <p>Redefining premium retail through minimalist design and quality craft.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html" class="links"> Home </a>
+                <a href="shop.html" class="links"> Shop </a>
+                <a href="contact.html" class="links"> Contact </a>
+            </div>
+            <div class="box">
+                <h3>Info</h3>
+                <a href="#" class="links"> Privacy Policy </a>
+                <a href="#" class="links"> Terms of Service </a>
+                <a href="#" class="links"> Shipping Info </a>
+            </div>
+            <div class="box">
+                <h3>Store</h3>
+                <p>Mumbai, MH, India</p>
+                <p>+91 12345 67890</p>
+                <p>hello@bigbazar.com</p>
+            </div>
+        </div>
+        <div class="credit"> &copy; 2025 Big Bazar. Crafted for excellence. </div>
+    </section>
+
+
+
+</body>
+</html>
